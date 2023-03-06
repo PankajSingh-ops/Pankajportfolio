@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Labrada', serif;
+        }
+        body{
+            background-color: beige;
+        }
+        #heading{
+            text-align: center;
+            font-size: 42px;
+        }
+        #heading1{
+            margin-left: 2rem;
+        }
+        #first{
+            width: 100%;
+            height: 27rem;
+            background-color: antiquewhite;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #child1{
+            width: 30%;
+            height: auto;
+            line-height: 2rem;
+            margin-left: 2rem;
+        }
+        #first>div:nth-child(2){
+            width: 10%;
+            height: 100%;
+        }
+        #child2{
+            width: 50%;
+            height: 26rem;
+            background-color: aqua;
+        }
+
+#child2>h3{
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+}
+   .text1{
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+    background-color:aqua;
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 70%;
+    height: 2rem;
+    outline: none;
+}    
+.text1:hover{
+    background-color: rgb(19, 230, 159);
+    outline: aqua;
+    border: 2px solid aquamarine;
+
+}   
+#button2{
+    width: 100px;
+    height: 2.5rem;
+    position: relative;
+    top: 6rem;
+    right: 24.4rem;
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+}  
+#button2:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    transition-duration: 1s;
+}
+#second{
+    width: 100%;
+    height: 20rem;
+    
+}
+#beta1{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(15, 15, 18);
+    position: relative;
+    left: 12rem;
+    top: 2rem;
+    display: flex;
+}
+#img1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    border: 1px solid white;
+}
+#img1>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#p1{
+    width: 50%;
+    height: auto;
+    position: relative;
+    color: aliceblue;
+    left: 4rem;
+    top: 3rem;
+}
+#button11{
+width: 100px;
+height: 2.2rem;
+color: whitesmoke;
+border: 1px solid white;
+background-color: black;
+border-radius: 20px;
+cursor: pointer;
+
+
+}
+#button12{
+width: 100px;
+height: 2.2rem;
+margin-left: 3rem;
+color: whitesmoke;
+border: 1px solid white;
+background-color: black;
+border-radius: 20px;
+cursor: pointer;
+}
+#button11:hover{
+color: black;
+background-color: aqua;
+border: 1px solid aqua;
+transition-duration: 1s;
+}
+#button12:hover{
+color: black;
+background-color: aqua;
+border: 1px solid aqua;
+transition-duration: 1s;
+}
+        
+    </style>
+</head>
+<body>
+    <h1 id="heading"><u> Contact Us... </u></h1><br>
+    <h1 id="heading1"> Want to Contact me... <br> Hey I also love too contact you</h1>
+    <div id="first">
+        
+    <div id="child1"><p>First impressions are tied intimately to positive body language. Becoming cognizant of your gestures, expressions, and tone of voice (and making certain they’re positive) will draw people to you like ants to a picnic. Using an enthusiastic tone, uncrossing your arms, maintaining eye contact, and leaning towards the person who’s speaking are all forms of positive body language that high-EQ people use to draw others in. Positive body language can make all the difference in a conversation. It’s true that how you say something can be more important than what you say.</p></div>
+<div></div>
+    <div id="child2">
+<h3>What is your name?</h3><br>
+<input type="text" class="text1"><br><br>
+<h3>What is your E-mail?</h3><br>
+<input type="email" class="text1"><br><br>
+<h3>What is your question?</h3><br>
+<input type="text" class="text1">
+<button id="button2"><h4>Send Me</h4></button>
+</div>    
+    </div>
+<div id="second">
+    <div id="beta1">
+        <div id="img1"><img src="/WhatsApp Image 2023-03-01 at 19.15.12.jpeg" alt=""></div>
+        <div id="p1"><p>“If you believe something needs to exist, if it's something you want to use yourself, don't let anyone ever stop you from doing it.”<br>“First forget inspiration. Habit is more dependable. Habit will sustain you whether you're inspired or not. Habit will help you finish and polish your stories. Inspiration won't. Habit is persistence in practice.” </p>
+            <br><button id="button11">Hit Target</button>  
+            <button id="button12">Send your CV</button> 
+        </div>
+         
+    </div>
+</div>
+</body>
+</html>
