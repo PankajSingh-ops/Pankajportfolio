@@ -339,6 +339,9 @@ align-items: center;
         top: 0rem;
     }
 }
+#para1{
+    display: block;
+}
 
 @media (max-width: 800px){
     #navbar{
@@ -387,7 +390,13 @@ align-items: center;
     }
     .child1{
         margin: 1.5rem;
+        /* width: auto; */
+        height: auto;
     }
+    .child>p{
+        width: 20rem;
+    }
+    
     
 }
 

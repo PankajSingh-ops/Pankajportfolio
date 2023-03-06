@@ -28,7 +28,7 @@
             height: 27rem;
             background-color: antiquewhite;
             display: flex;
-            flex-wrap: wrap;
+            
         }
         #child1{
             width: 30%;
@@ -153,6 +153,37 @@ color: black;
 background-color: aqua;
 border: 1px solid aqua;
 transition-duration: 1s;
+}
+@media (max-width:600px){
+    body{
+        background-image: url(fixed.jpg);
+    }
+    #first{
+        display: block;
+    }
+    #child1{
+        width: auto;
+        height: auto;
+    }
+#child2{
+    width: 30rem;
+    height: auto;
+    position: relative;
+    bottom: 15rem;
+    z-index: 1;
+    background-color: transparent;
+}
+#beta1{
+    display: none;
+}
+.text1{
+    background-color: transparent;
+}
+#button2{
+    position: relative;
+    left: 5rem;
+}
+    
 }
         
     </style>
